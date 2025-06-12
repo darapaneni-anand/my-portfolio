@@ -1,0 +1,135 @@
+.about-container {
+  margin: auto;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  color: #efeaea;
+}
+
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #b700ff, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* About section layout */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Text area */
+.about-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #ddd;
+}
+
+/* Achievements */
+.about-achievements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.achievement {
+  flex: 1;
+  min-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.achievement:hover {
+  transform: scale(1.05);
+}
+
+.achievement h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #b700ff, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.achievement p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.about-achievements hr {
+  height: 60px;
+  width: 2px;
+  background: linear-gradient(to bottom, #ff0099, #b700ff);
+  border: none;
+}
+
+/* 🌐 Responsive Media Queries */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-right {
+    padding: 0 10px;
+  }
+
+  .achievement h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .achievement h1 {
+    font-size: 2rem;
+  }
+
+  .about-achievements {
+    gap: 20px;
+    padding: 30px 10px;
+  }
+}

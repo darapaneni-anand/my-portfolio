@@ -1,0 +1,78 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .photo {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    width: 260px;
+    height: 260px;
+
+  }
+  
+  .main-text{
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+  }
+  
+  .name {
+    font-weight: bold;
+    background: linear-gradient(90deg, #b700ff, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: aliceblue;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .connect,
+  .res {
+    padding: 22px 70px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+  }
+  
+  .connect {
+    background: linear-gradient(90deg, #b700ff, #ee0979);
+    color: white;
+  }
+  
+  .connect:hover {
+    background: linear-gradient(90deg, #b64fdf, #e369a4);
+    border: 2px solid white;
+  }
+  
+  .res {
+    background-color: #eeeeee;
+    color: #333;
+  }
+  
+  .res:hover {
+    background-color: #ddd;
+    border: 2px solid #b64fdf;
+  }
+  
+  

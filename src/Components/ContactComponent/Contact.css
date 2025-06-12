@@ -1,0 +1,137 @@
+.contact-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  background: linear-gradient(90deg, #9b59b6, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
+
+
+
+/* Flex container for info and form */
+.contact-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+
+
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.contact-info a {
+  color: #ee0979;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-info .icon {
+  display: inline-flex;
+  color: #ee0979;
+  flex-shrink: 0;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #eee;
+  resize: none;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #ccc;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  background: rgba(238, 9, 121, 0.1);
+  outline: none;
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #b700ff, #ee0979);
+  border: none;
+  border-radius: 14px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #ee0979, #b700ff);
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #878686; /* light gray color for placeholders */
+}
+
+/* Add spacing between label and input/textarea */
+.form-group label {
+  display: block;
+  margin-bottom: 8px; /* space between label and input */
+  color: #f9f5f5;
+  font-weight: 600;
+}
+
+/* Add border and some padding to inputs and textarea */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 2px solid rgba(238, 9, 121, 0.5); /* subtle pinkish border */
+  background: rgba(255, 255, 255, 0.15);
+  color: #eee;
+  resize: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  background: rgba(238, 9, 121, 0.1);
+  border-color: #ee0979; /* stronger border on focus */
+  outline: none;
+}

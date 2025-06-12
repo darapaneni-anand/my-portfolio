@@ -1,0 +1,110 @@
+.skills-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #b700ff, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skills-category {
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffccff;
+  text-decoration: underline;
+}
+
+.skill-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-bar span {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #b700ff;
+  margin-right: 8px;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  min-width: 200px;
+  flex-wrap: wrap;
+}
+
+.bar {
+  height: 12px;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-grow: 1;
+  min-width: 150px;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #b700ff, #ee0979);
+  transition: width 0.6s ease-in-out;
+  border-radius: 12px;
+}
+
+.percent-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffccff;
+  white-space: nowrap;
+}
+
+/* ✅ Responsive Styling Fix */
+@media (max-width: 768px) {
+  .skill-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-bar span {
+    width: auto;
+    margin-bottom: 6px;
+  }
+
+  .bar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .bar {
+    width: 100%;
+  }
+
+  .percent-label {
+    margin-top: 6px;
+  }
+}
