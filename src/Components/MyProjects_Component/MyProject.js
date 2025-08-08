@@ -45,27 +45,15 @@ function ProjectCard({
 function MyProject() {
   const projects = [
     {
-  title: 'Portfolio Website',
-  image: portfolio, // Replace with your actual image filename
-  shortDesc: 'Personal portfolio showcasing skills and projects.',
-  fullDesc: 'A responsive portfolio built with modern web technologies to highlight my experience, skills, and personal projects. Includes contact form, project gallery, and tech stack.',
-  technologies: ['React', 'CSS', 'JavaScript'],
-  githubLink: 'https://github.com/yourusername/portfolio',
-  demoLink: 'https://yourportfolio.com',
-  timeline: 'May 2025',
-  role: 'Frontend Developer'
-}
- ,
-    {
-      title: 'AURA Emotion Chatbot',
-      image: about_pic,
-      shortDesc: 'AI chatbot that suggests movies based on mood.',
-      fullDesc: 'Uses emotion recognition and NLP to understand user mood and respond with empathy and movie recommendations.',
-      technologies: ['React', 'TensorFlow', 'Flask', 'MongoDB'],
-      githubLink: 'https://github.com/yourusername/aura-chatbot',
-      demoLink: 'https://aura-chatbot-demo.com',
-      timeline: 'Jan 2025',
-      role: 'ML & Backend Developer'
+      title: 'Portfolio Website',
+      image: portfolio,
+      shortDesc: 'Personal portfolio showcasing skills and projects.',
+      fullDesc: 'A responsive portfolio built with modern web technologies to highlight my experience, skills, and personal projects. Includes contact form, project gallery, and tech stack.',
+      technologies: ['React', 'CSS', 'JavaScript'],
+      githubLink: 'https://github.com/darapaneni-anand/my-portfolio',
+      demoLink: 'https://yourportfolio.com',
+      timeline: 'May 2025',
+      role: 'Frontend Developer'
     },
     {
       title: 'E-Commerce Website',
@@ -73,10 +61,10 @@ function MyProject() {
       shortDesc: 'Responsive shopping site with full stack features.',
       fullDesc: 'Supports product listings, cart, checkout, login, and admin dashboard. Mobile-first and user-friendly design.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-      githubLink: 'https://github.com/yourusername/ecommerce',
-      demoLink: 'https://ecommerce-demo.com',
-      timeline: 'Dec 2024',
-      role: 'Frontend Developer'
+      githubLink: 'https://github.com/darapaneni-anand/ecommerce',
+      demoLink: 'https://e-commerce-1-tfzt.onrender.com',
+      timeline: 'July 2025',
+      role: 'Full Stack Developer'
     }
   ];
 
