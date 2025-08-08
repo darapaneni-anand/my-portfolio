@@ -23,27 +23,27 @@ function TechnicalSkills() {
           <span><FaCss3Alt className="icon" /> CSS</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '95%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">95%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><FaJs className="icon" /> JavaScript</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '85%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">85%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><FaReact className="icon" /> React</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '70%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">70%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
       </div>
@@ -54,27 +54,27 @@ function TechnicalSkills() {
           <span><FaNodeJs className="icon" /> Node.js</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '60%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">60%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><SiExpress className="icon" /> Express.js</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '55%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">55%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><SiMongodb className="icon" /> MongoDB</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '65%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">65%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
       </div>
@@ -85,27 +85,27 @@ function TechnicalSkills() {
           <span><FaPython className="icon" /> Python</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '70%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">70%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><FaJava className="icon" /> Java</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '60%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">60%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
         <div className="skill-bar">
           <span><FaGithub className="icon" /> Git & GitHub</span>
           <div className="bar-container">
             <div className="bar">
-              <div className="fill" style={{ width: '75%' }}></div>
+              <div className="fill" style={{ width: '100%' }}></div>
             </div>
-            <span className="percent-label">75%</span>
+            <span className="percent-label">100%</span>
           </div>
         </div>
       </div>
