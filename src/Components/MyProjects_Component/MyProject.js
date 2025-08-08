@@ -51,7 +51,7 @@ function MyProject() {
       fullDesc: 'A responsive portfolio built with modern web technologies to highlight my experience, skills, and personal projects. Includes contact form, project gallery, and tech stack.',
       technologies: ['React', 'CSS', 'JavaScript'],
       githubLink: 'https://github.com/darapaneni-anand/my-portfolio',
-      demoLink: 'https://yourportfolio.com',
+      demoLink: 'https://my-portfolio-nine-pearl-35.vercel.app/',
       timeline: 'May 2025',
       role: 'Frontend Developer'
     },
