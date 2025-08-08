@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './MyProject.css';
 import portfolio from '../../assets/portfolio.png';
-import about_pic from '../../assets/about_pic.jpg';
+import ecommerceImg from '../../assets/E-Commerce.png'; // ✅ Correct import for E-Commerce image
 
 function ProjectCard({
   title,
@@ -57,11 +57,11 @@ function MyProject() {
     },
     {
       title: 'E-Commerce Website',
-      image: portfolio,
-      shortDesc: 'Responsive shopping site with full stack features.',
-      fullDesc: 'Supports product listings, cart, checkout, login, and admin dashboard. Mobile-first and user-friendly design.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-      githubLink: 'https://github.com/darapaneni-anand/ecommerce',
+      image: ecommerceImg,
+      shortDesc: 'Full-featured shopping platform with modern UI and backend integration.',
+      fullDesc: 'A fully functional e-commerce platform built using the MERN stack. Features include product catalog with search and filter options, secure authentication, shopping cart, order tracking, and an admin dashboard for managing products and orders. Designed with TailwindCSS for a responsive and modern interface, and deployed with backend APIs for real-time data handling.',
+      technologies: ['React', 'TailwindCSS', 'Node.js', 'MongoDB'],
+      githubLink: 'https://github.com/darapaneni-anand/E-Commerce',
       demoLink: 'https://e-commerce-1-tfzt.onrender.com',
       timeline: 'July 2025',
       role: 'Full Stack Developer'
